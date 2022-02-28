@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setup</title>
+        <script src="setup.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Configure Your Setup</h1>
+        <p>This page pulls variables from boxes, stores them in local storage variables, and passes them to the loops page.</p>
+    <div id = "form">
+        <label for="max">Max:</label>
+        <input type="max" id="max" name="max" value="12"><br>
+        <label for="min">Min:</label>
+        <input type="min" id="min" name="min" value="3"><br>
+        <label for="questions">Questions:</label>
+        <input type="questions" id="questions" name="questions" value="2"><br>
+        <button onclick="getStats()">Store Config</button>
+    </div>
+    </body>
+</html>
